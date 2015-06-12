@@ -1,0 +1,71 @@
+@font-face {
+    font-family: helvetica;
+    src: url(fonts/Helvetica.ttf);
+}
+
+body{
+	margin: 0px;
+	background-image: url(../images/cam.jpg); 
+	background-position: 10% 10%;
+        background-size: 100% 100%;
+        background-repeat: none;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        background-size: cover;
+        -o-background-size: cover;
+}
+.content{
+	text-align: center;
+	width: 90%;
+	margin: 0 auto;
+	font-family: helvetica;
+	margin-top: 5%;
+}
+.logo{
+	width: 400px;
+	height: auto;
+	margin-bottom: 50px;
+}
+h1{
+	color:#ff6600; 
+	font-weight: bold;
+	font-family: helvetica;
+	font-size: 55px;
+	margin-bottom: 30px;
+}
+h3{
+	color:#ddd; 
+	font-size: 20px;
+	font-weight: bold; 
+	margin-bottom: 25px;
+}
+.play-store{
+	width: 200px;
+	margin-bottom: 15px;
+}
+.play-store:hover{
+	opacity: 0.8;
+}
+.social-icons{
+	margin-left: -40px;
+	display: inline;
+	list-style-type: none;
+}
+.social-icons li{
+	display: inline;
+}
+.social-icons li:hover{
+	opacity: 0.8;
+}
+.splash-screen{
+	width: 350px;
+}
+ul.social-icons li a i {
+  color: #fff;
+  font-size: 30px;
+  padding-right: 5px;
+  padding-left: 5px;
+}
+.slash{
+	color: #fff;
+}
